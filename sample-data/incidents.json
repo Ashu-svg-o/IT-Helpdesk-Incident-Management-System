@@ -1,0 +1,34 @@
+[
+  {
+    "id": "INC1001",
+    "short_description": "Wi-Fi not connecting",
+    "category": "Network",
+    "priority": "P2",
+    "assignment_group": "Network Support",
+    "status": "Open"
+  },
+  {
+    "id": "INC1002",
+    "short_description": "Printer offline",
+    "category": "Printer",
+    "priority": "P3",
+    "assignment_group": "Desktop Support",
+    "status": "Resolved"
+  },
+  {
+    "id": "INC1003",
+    "short_description": "Laptop running slowly",
+    "category": "Hardware",
+    "priority": "P3",
+    "assignment_group": "Desktop Support",
+    "status": "Open"
+  },
+  {
+    "id": "INC1004",
+    "short_description": "Application not launching",
+    "category": "Software",
+    "priority": "P2",
+    "assignment_group": "Application Support",
+    "status": "Resolved"
+  }
+]
