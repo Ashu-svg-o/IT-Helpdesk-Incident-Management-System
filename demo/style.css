@@ -1,0 +1,23 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f4f7fb;color:#172033}
+.container{max-width:1100px;margin:0 auto;padding:42px 20px}
+.eyebrow{font-size:12px;letter-spacing:1.4px;color:#4169a1;font-weight:700}
+h1{font-size:34px;margin:8px 0}
+h2{margin:0 0 18px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:28px 0}
+.card,.panel{background:white;border:1px solid #e1e7ef;border-radius:12px;padding:20px;box-shadow:0 4px 14px rgba(20,40,80,.05)}
+.card span{display:block;color:#667085;font-size:14px}
+.card strong{display:block;font-size:30px;margin-top:8px}
+.toolbar{display:flex;justify-content:space-between;gap:15px;align-items:center}
+.toolbar input{padding:10px 12px;border:1px solid #ccd5e1;border-radius:8px;width:240px}
+.table-wrap{overflow:auto}
+table{width:100%;border-collapse:collapse}
+th,td{text-align:left;padding:13px 10px;border-bottom:1px solid #edf0f4;font-size:14px}
+th{font-size:12px;color:#667085;text-transform:uppercase}
+.status{font-weight:700}
+.open{color:#b54708}
+.resolved{color:#027a48}
+.workflow{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.workflow span{padding:10px 14px;background:#eef4ff;border-radius:8px}
+.workflow b{color:#667085}
+@media(max-width:700px){.cards{grid-template-columns:1fr}.toolbar{align-items:stretch;flex-direction:column}.toolbar input{width:100%}}
