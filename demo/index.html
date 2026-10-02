@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>IT Helpdesk Incident Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <p class="eyebrow">ITSM / INCIDENT MANAGEMENT</p>
+      <h1>IT Helpdesk Incident Management System</h1>
+      <p>Portfolio demo based on a ServiceNow helpdesk workflow.</p>
+    </header>
+
+    <section class="cards">
+      <div class="card"><span>Open</span><strong id="openCount">0</strong></div>
+      <div class="card"><span>Resolved</span><strong id="resolvedCount">0</strong></div>
+      <div class="card"><span>P2 Incidents</span><strong id="p2Count">0</strong></div>
+    </section>
+
+    <section class="panel">
+      <div class="toolbar">
+        <h2>Incident Queue</h2>
+        <input id="search" placeholder="Search incidents...">
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>ID</th><th>Issue</th><th>Category</th><th>Priority</th><th>Assignment Group</th><th>Status</th></tr>
+          </thead>
+          <tbody id="incidentRows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Supported Workflow</h2>
+      <div class="workflow">
+        <span>Log Incident</span><b>→</b><span>Categorize</span><b>→</b><span>Assign</span><b>→</b>
+        <span>Troubleshoot</span><b>→</b><span>Resolve</span>
+      </div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
